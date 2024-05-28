@@ -36,8 +36,8 @@ int main()
 {
 	// Window dimensions array
 	int windowDimentions[2];
-	windowDimentions[0] = 512;
-	windowDimentions[1] = 380;
+	windowDimentions[0] = 512 * 2;
+	windowDimentions[1] = 380 * 2;
 
 	// initialize the window
 	InitWindow(windowDimentions[0], windowDimentions[1], "Dapper Dasher!");
